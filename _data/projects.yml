@@ -1,0 +1,21 @@
+# 프로젝트 카드 목록. 각 항목을 자유롭게 추가/수정하세요.
+- name: "프로젝트 제목 1"
+  description: "이 프로젝트가 무엇이고 어떤 문제를 해결했는지 한두 문장으로 적어주세요."
+  tags:
+    - Python
+    - API
+  url: "https://github.com/virusfunk"
+  # image: "/assets/img/project1.png"   # 이미지가 있으면 주석 해제
+
+- name: "프로젝트 제목 2"
+  description: "맡았던 역할과 사용한 기술, 결과를 간단히 소개하세요."
+  tags:
+    - React
+    - TypeScript
+  url: "https://github.com/virusfunk"
+
+- name: "프로젝트 제목 3"
+  description: "사이드 프로젝트나 실험적인 작업도 좋습니다."
+  tags:
+    - Jekyll
+  url: "https://github.com/virusfunk"

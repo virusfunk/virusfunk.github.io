@@ -1,0 +1,106 @@
+---
+layout: default
+title: Home
+---
+
+<!-- ── Hero ─────────────────────────────────────────── -->
+<section class="hero">
+  <div class="container">
+    <p class="hero-eyebrow">👋 안녕하세요, 저는</p>
+    <h1 class="hero-name">{{ site.title }}</h1>
+    <p class="hero-tagline">{{ site.tagline }}</p>
+    <p class="hero-intro">
+      여기에 자신을 한두 문장으로 소개하세요. 어떤 일을 하고,
+      무엇에 관심이 있으며, 어떤 가치를 만들고 싶은지 적으면 좋아요.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+      <a href="#contact" class="btn btn-ghost">연락하기</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── About ────────────────────────────────────────── -->
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-title"><span class="section-num">01.</span> About</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          자기소개를 좀 더 자세히 적는 공간입니다. 배경, 경력, 관심 분야,
+          현재 하고 있는 일 등을 편하게 풀어서 작성하세요.
+        </p>
+        <p>
+          취미나 성격, 일하는 방식처럼 사람 냄새 나는 이야기를 더하면
+          방문자에게 더 기억에 남는 페이지가 됩니다.
+        </p>
+      </div>
+      <aside class="about-card">
+        <ul class="fact-list">
+          <li><span>이름</span> virusfunk</li>
+          <li><span>역할</span> Developer</li>
+          <li><span>위치</span> 한국</li>
+          <li><span>관심사</span> 웹, 오픈소스</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ── Skills ───────────────────────────────────────── -->
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title"><span class="section-num">02.</span> Skills</h2>
+    <div class="skills-grid">
+      {% for group in site.data.skills %}
+      <div class="skill-group">
+        <h3>{{ group.category }}</h3>
+        <ul class="tag-list">
+          {% for item in group.items %}
+          <li class="tag">{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ── Projects ─────────────────────────────────────── -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title"><span class="section-num">03.</span> Projects</h2>
+    <div class="projects-grid">
+      {% for project in site.data.projects %}
+      <a class="project-card" href="{{ project.url }}" target="_blank" rel="noopener">
+        {% if project.image %}
+        <img class="project-img" src="{{ project.image | relative_url }}" alt="{{ project.name }}">
+        {% endif %}
+        <h3 class="project-name">{{ project.name }}</h3>
+        <p class="project-desc">{{ project.description }}</p>
+        {% if project.tags %}
+        <ul class="tag-list">
+          {% for tag in project.tags %}
+          <li class="tag tag-sm">{{ tag }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ── Contact ──────────────────────────────────────── -->
+<section id="contact" class="section section-alt">
+  <div class="container contact">
+    <h2 class="section-title"><span class="section-num">04.</span> Contact</h2>
+    <p class="contact-lead">메시지를 남겨주세요. 협업이나 어떤 이야기든 환영합니다!</p>
+    <div class="contact-links">
+      {% if site.email %}<a href="mailto:{{ site.email }}" class="btn btn-primary">이메일 보내기</a>{% endif %}
+      {% if site.github %}<a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>{% endif %}
+      {% if site.linkedin != "" %}<a href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>{% endif %}
+      {% if site.twitter != "" %}<a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" class="btn btn-ghost">Twitter</a>{% endif %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+# 카테고리별 기술 스택. 자유롭게 추가/수정하세요.
+- category: "Languages"
+  items:
+    - Python
+    - JavaScript
+    - C++
+    - Ruby
+
+- category: "Frameworks & Tools"
+  items:
+    - React
+    - Node.js
+    - Jekyll
+    - Git
+
+- category: "Data & Infra"
+  items:
+    - Docker
+    - PostgreSQL
+    - Linux
+    - CI/CD

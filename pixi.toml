@@ -1,0 +1,23 @@
+[workspace]
+authors = ["Youngwan Son <youngwan.son@cern.ch>"]
+channels = ["conda-forge"]
+name = "virusfunk.github.io"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+# 의존 gem 설치 (vendor/bundle 로 프로젝트 안에 격리)
+install = "bundle config set --local path 'vendor/bundle' && bundle install"
+# 로컬 미리보기 서버 (http://localhost:4000), 실시간 새로고침
+serve = "bundle exec jekyll serve --livereload --host 0.0.0.0"
+# 배포용 정적 빌드 (_site 생성)
+build = "bundle exec jekyll build"
+# _site, 캐시 정리
+clean = "bundle exec jekyll clean"
+
+[dependencies]
+ruby = "3.3.*"
+c-compiler = "*"
+cxx-compiler = "*"
+make = "*"
+pkg-config = "*"

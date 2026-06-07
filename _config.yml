@@ -1,0 +1,33 @@
+# ── 사이트 기본 정보 ───────────────────────────────
+title: "virusfunk"
+tagline: "Developer · Maker · Lifelong Learner"
+description: "virusfunk의 개인 포트폴리오 페이지입니다."
+author: "virusfunk"
+email: "master909056@gmail.com"
+
+# 배포 주소 (개인 GitHub Pages 사이트)
+url: "https://virusfunk.github.io"
+baseurl: ""
+
+# ── 소셜/연락처 링크 (비우면 자동으로 숨겨짐) ───────
+github: "virusfunk"
+linkedin: ""
+twitter: ""
+
+# ── 빌드 설정 ──────────────────────────────────────
+permalink: pretty
+lang: ko
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Jekyll이 빌드에서 제외할 파일
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - pixi.toml
+  - pixi.lock
+  - .pixi/
+  - README.md
+  - vendor/

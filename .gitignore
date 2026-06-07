@@ -1,0 +1,16 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler / gems
+vendor/
+.bundle/
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# OS
+.DS_Store
