@@ -1,21 +1,12 @@
 # List of project cards. Add or edit each entry freely.
-- name: "Project Title 1"
-  description: "Describe in a sentence or two what this project is and what problem it solved."
-  tags:
-    - Python
-    - API
-  url: "https://github.com/virusfunk"
-  # image: "/assets/img/project1.png"   # uncomment if you have an image
+- name: "Axion-like Particle Search"
+  description: "If axion-like particles exist, TeV spectra of extragalactic sources will be oscillated or harden. I have analysed TeV data of extragalactic blazars with HAWC to search this ALP signature."
+  url: "https://pos.sissa.it/501/538/pdf"
 
-- name: "Project Title 2"
-  description: "Briefly introduce your role, the tech you used, and the outcome."
-  tags:
-    - React
-    - TypeScript
-  url: "https://github.com/virusfunk"
+- name: "Galactic TeV source analysis"
+  description: "I have analysed several Galactic gamma-ray sources with HAWC (J1844-034, SS 433, and G32.64+0.53), and tested plausible scenarios of the multiwavelength emissions."
+  url: "https://arxiv.org/abs/2603.19721"
 
-- name: "Project Title 3"
-  description: "Side projects and experimental work are welcome here too."
-  tags:
-    - Jekyll
-  url: "https://github.com/virusfunk"
+- name: "Deep learning for Astrophysics"
+  description: "I have worked for implementing deep-learning based reconstructor for SWGO. It leverages all the low-level PMT information to maximize the input information for the reconstruction task."
+  url: "https://arxiv.org/abs/2604.09402"
