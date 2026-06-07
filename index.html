@@ -6,16 +6,16 @@ title: Home
 <!-- ── Hero ─────────────────────────────────────────── -->
 <section class="hero">
   <div class="container">
-    <p class="hero-eyebrow">👋 안녕하세요, 저는</p>
+    <p class="hero-eyebrow">👋 Hi, I'm</p>
     <h1 class="hero-name">{{ site.title }}</h1>
     <p class="hero-tagline">{{ site.tagline }}</p>
     <p class="hero-intro">
-      여기에 자신을 한두 문장으로 소개하세요. 어떤 일을 하고,
-      무엇에 관심이 있으며, 어떤 가치를 만들고 싶은지 적으면 좋아요.
+      Introduce yourself here in a sentence or two — what you do,
+      what you care about, and the kind of value you want to create.
     </p>
     <div class="hero-actions">
-      <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
-      <a href="#contact" class="btn btn-ghost">연락하기</a>
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
     </div>
   </div>
 </section>
@@ -27,20 +27,20 @@ title: Home
     <div class="about-grid">
       <div class="about-text">
         <p>
-          자기소개를 좀 더 자세히 적는 공간입니다. 배경, 경력, 관심 분야,
-          현재 하고 있는 일 등을 편하게 풀어서 작성하세요.
+          This is the space for a longer introduction. Feel free to write about
+          your background, experience, areas of interest, and what you're working on now.
         </p>
         <p>
-          취미나 성격, 일하는 방식처럼 사람 냄새 나는 이야기를 더하면
-          방문자에게 더 기억에 남는 페이지가 됩니다.
+          Adding a more personal touch — hobbies, your personality, or how you like
+          to work — makes the page more memorable to visitors.
         </p>
       </div>
       <aside class="about-card">
         <ul class="fact-list">
-          <li><span>이름</span> virusfunk</li>
-          <li><span>역할</span> Developer</li>
-          <li><span>위치</span> 한국</li>
-          <li><span>관심사</span> 웹, 오픈소스</li>
+          <li><span>Name</span> virusfunk</li>
+          <li><span>Role</span> Developer</li>
+          <li><span>Location</span> South Korea</li>
+          <li><span>Interests</span> Web, Open Source</li>
         </ul>
       </aside>
     </div>
@@ -95,9 +95,9 @@ title: Home
 <section id="contact" class="section section-alt">
   <div class="container contact">
     <h2 class="section-title"><span class="section-num">04.</span> Contact</h2>
-    <p class="contact-lead">메시지를 남겨주세요. 협업이나 어떤 이야기든 환영합니다!</p>
+    <p class="contact-lead">Drop me a message — I'm open to collaboration or just a chat!</p>
     <div class="contact-links">
-      {% if site.email %}<a href="mailto:{{ site.email }}" class="btn btn-primary">이메일 보내기</a>{% endif %}
+      {% if site.email %}<a href="mailto:{{ site.email }}" class="btn btn-primary">Send Email</a>{% endif %}
       {% if site.github %}<a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>{% endif %}
       {% if site.linkedin != "" %}<a href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>{% endif %}
       {% if site.twitter != "" %}<a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" class="btn btn-ghost">Twitter</a>{% endif %}

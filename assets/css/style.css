@@ -1,4 +1,4 @@
-/* ── 디자인 토큰 (테마) ───────────────────────────── */
+/* ── Design tokens (theme) ─────────────────────────── */
 :root {
   --bg: #ffffff;
   --bg-alt: #f5f6f8;
@@ -25,7 +25,7 @@
   --shadow: 0 1px 3px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
 }
 
-/* ── 기본 ──────────────────────────────────────────── */
+/* ── Base ──────────────────────────────────────────── */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; scroll-padding-top: 80px; }
@@ -43,7 +43,7 @@ body {
 
 a { color: var(--accent); text-decoration: none; }
 
-/* ── 헤더 / 내비 ───────────────────────────────────── */
+/* ── Header / nav ──────────────────────────────────── */
 .site-header {
   position: sticky; top: 0; z-index: 50;
   background: color-mix(in srgb, var(--bg) 85%, transparent);
@@ -71,7 +71,7 @@ a { color: var(--accent); text-decoration: none; }
 .hero-intro { max-width: 560px; color: var(--text-soft); margin-top: 22px; font-size: 1.05rem; }
 .hero-actions { display: flex; gap: 14px; margin-top: 34px; flex-wrap: wrap; }
 
-/* ── 버튼 ──────────────────────────────────────────── */
+/* ── Buttons ───────────────────────────────────────── */
 .btn {
   display: inline-block; padding: 12px 24px; border-radius: 10px;
   font-weight: 600; font-size: .95rem; transition: transform .15s, box-shadow .2s, background .2s;
@@ -82,7 +82,7 @@ a { color: var(--accent); text-decoration: none; }
 .btn-ghost { background: transparent; color: var(--text); border-color: var(--border); }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ── 섹션 ──────────────────────────────────────────── */
+/* ── Sections ──────────────────────────────────────── */
 .section { padding: 80px 0; }
 .section-alt { background: var(--bg-alt); }
 .section-title {
@@ -129,14 +129,14 @@ a { color: var(--accent); text-decoration: none; }
 .contact-lead { color: var(--text-soft); font-size: 1.1rem; margin-bottom: 30px; }
 .contact-links { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 
-/* ── 푸터 ──────────────────────────────────────────── */
+/* ── Footer ────────────────────────────────────────── */
 .site-footer { border-top: 1px solid var(--border); padding: 30px 0; text-align: center; }
 .site-footer p { color: var(--text-soft); font-size: .9rem; }
 
-/* ── 반응형 ────────────────────────────────────────── */
+/* ── Responsive ────────────────────────────────────── */
 @media (max-width: 680px) {
   .nav-links { gap: 14px; }
-  .nav-links a:not(:last-child) { display: none; }  /* 모바일에선 메뉴 간소화 */
+  .nav-links a:not(:last-child) { display: none; }  /* simplify menu on mobile */
   .about-grid { grid-template-columns: 1fr; }
   .hero { padding: 70px 0 60px; }
 }

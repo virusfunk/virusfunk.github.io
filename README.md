@@ -1,37 +1,37 @@
 # virusfunk.github.io
 
-[virusfunk](https://github.com/virusfunk)의 개인 포트폴리오 사이트입니다.
-Jekyll로 만들어졌고 GitHub Pages로 배포됩니다 → **https://virusfunk.github.io**
+Personal portfolio site for [virusfunk](https://github.com/virusfunk).
+Built with Jekyll and deployed via GitHub Pages → **https://virusfunk.github.io**
 
-## 내용 수정하기
+## Editing the content
 
-코드를 몰라도 대부분 아래 파일만 고치면 됩니다.
+You can change most things by editing just the files below — no coding required.
 
-| 무엇을 바꾸나 | 파일 |
+| What to change | File |
 | --- | --- |
-| 이름·소개·연락처·소셜 링크 | `_config.yml` |
-| 메인 문구 / About / 섹션 텍스트 | `index.html` |
-| 기술 스택 | `_data/skills.yml` |
-| 프로젝트 카드 | `_data/projects.yml` |
-| 색상·폰트·디자인 | `assets/css/style.css` |
+| Name, intro, contact, social links | `_config.yml` |
+| Hero text / About / section copy | `index.html` |
+| Skill stack | `_data/skills.yml` |
+| Project cards | `_data/projects.yml` |
+| Colors, fonts, design | `assets/css/style.css` |
 
-## 로컬에서 미리보기 (pixi)
+## Local preview (pixi)
 
-[pixi](https://pixi.sh)가 Ruby 환경을 자동으로 관리합니다.
-
-```bash
-pixi run install   # 최초 1회 — gem 설치
-pixi run serve     # http://localhost:4000 에서 미리보기 (저장하면 자동 새로고침)
-```
-
-기타 명령:
+[pixi](https://pixi.sh) manages the Ruby environment automatically.
 
 ```bash
-pixi run build     # _site/ 로 정적 빌드
-pixi run clean     # 빌드 캐시 정리
+pixi run install   # first time only — installs gems
+pixi run serve     # preview at http://localhost:4000 (auto-reloads on save)
 ```
 
-## 배포
+Other commands:
 
-`main` 브랜치에 push 하면 GitHub Pages가 자동으로 빌드·배포합니다.
-별도 설정은 필요 없습니다. (Settings → Pages → Source: `Deploy from a branch`, `main` / `root`)
+```bash
+pixi run build     # static build into _site/
+pixi run clean     # clear build caches
+```
+
+## Deployment
+
+Pushing to the `main` branch triggers an automatic build and deploy by GitHub Pages.
+No extra setup is needed. (Settings → Pages → Source: `Deploy from a branch`, `main` / `root`)

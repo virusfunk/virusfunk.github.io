@@ -1,28 +1,28 @@
-# ── 사이트 기본 정보 ───────────────────────────────
+# ── Site basics ────────────────────────────────────
 title: "virusfunk"
 tagline: "Developer · Maker · Lifelong Learner"
-description: "virusfunk의 개인 포트폴리오 페이지입니다."
+description: "Personal portfolio of virusfunk."
 author: "virusfunk"
 email: "master909056@gmail.com"
 
-# 배포 주소 (개인 GitHub Pages 사이트)
+# Deployment URL (personal GitHub Pages site)
 url: "https://virusfunk.github.io"
 baseurl: ""
 
-# ── 소셜/연락처 링크 (비우면 자동으로 숨겨짐) ───────
+# ── Social / contact links (left blank = hidden automatically) ──
 github: "virusfunk"
 linkedin: ""
 twitter: ""
 
-# ── 빌드 설정 ──────────────────────────────────────
+# ── Build settings ─────────────────────────────────
 permalink: pretty
-lang: ko
+lang: en
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Jekyll이 빌드에서 제외할 파일
+# Files Jekyll should exclude from the build
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -1,4 +1,4 @@
-// 라이트/다크 테마 전환 — 선택을 localStorage에 저장
+// Light/dark theme toggle — persists the choice in localStorage
 (function () {
   var root = document.documentElement;
   var saved = localStorage.getItem('theme');
