@@ -1,0 +1,44 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<section class="section pub-page">
+  <div class="container">
+    <p class="hero-eyebrow"><a href="{{ '/' | relative_url }}">← Back home</a></p>
+    <h1 class="section-title" style="margin-top:10px">Publications</h1>
+    <p class="contact-lead" style="margin-bottom:50px">
+      {{ site.data.publications.first | size | plus: site.data.publications.proceedings.size | plus: site.data.publications.collaboration.size }}
+      works in total — first-author papers, conference proceedings, and collaboration publications.
+    </p>
+
+    <!-- First-author -->
+    <h2 class="pub-group-title">First-author Papers</h2>
+    <ol class="pub-list">
+      {% for p in site.data.publications.first %}
+      {% include pub-item.html p=p %}
+      {% endfor %}
+    </ol>
+
+    <!-- Proceedings -->
+    <h2 class="pub-group-title">Conference Proceedings</h2>
+    <ol class="pub-list">
+      {% for p in site.data.publications.proceedings %}
+      {% include pub-item.html p=p %}
+      {% endfor %}
+    </ol>
+
+    <!-- Collaboration, grouped by year -->
+    <h2 class="pub-group-title">Collaboration Publications</h2>
+    {% assign by_year = site.data.publications.collaboration | group_by: "year" | sort: "name" | reverse %}
+    {% for grp in by_year %}
+    <h3 class="pub-year">{{ grp.name }}</h3>
+    <ol class="pub-list">
+      {% for p in grp.items %}
+      {% include pub-item.html p=p %}
+      {% endfor %}
+    </ol>
+    {% endfor %}
+  </div>
+</section>

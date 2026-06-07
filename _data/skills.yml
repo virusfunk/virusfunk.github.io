@@ -2,20 +2,18 @@
 - category: "Languages"
   items:
     - Python
-    - JavaScript
     - C++
-    - Ruby
 
 - category: "Frameworks & Tools"
   items:
-    - React
-    - Node.js
-    - Jekyll
-    - Git
+    - Torch
+    - Tensorflow
+    - ROOT
+    - High-level Synthesis tools
 
 - category: "Data & Infra"
   items:
-    - Docker
-    - PostgreSQL
-    - Linux
-    - CI/CD
+    - Singularity/Apptainer
+    - MySQL/MariaDB
+    - CentOS/Alma Linux
+    - pixi

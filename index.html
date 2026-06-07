@@ -65,10 +65,26 @@ title: Home
   </div>
 </section>
 
-<!-- ── Projects ─────────────────────────────────────── -->
-<section id="projects" class="section">
+<!-- ── Publications ─────────────────────────────────── -->
+<section id="publications" class="section">
   <div class="container">
-    <h2 class="section-title"><span class="section-num">03.</span> Projects</h2>
+    <h2 class="section-title"><span class="section-num">03.</span> Publications</h2>
+    <p class="contact-lead" style="margin-bottom:34px">
+      Selected first-author papers —
+      <a href="{{ '/publications/' | relative_url }}">see all {{ site.data.publications.first | size | plus: site.data.publications.proceedings.size | plus: site.data.publications.collaboration.size }} publications →</a>
+    </p>
+    <ol class="pub-list">
+      {% for p in site.data.publications.first %}
+        {% include pub-item.html p=p %}
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<!-- ── Projects ─────────────────────────────────────── -->
+<section id="projects" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title"><span class="section-num">04.</span> Projects</h2>
     <div class="projects-grid">
       {% for project in site.data.projects %}
       <a class="project-card" href="{{ project.url }}" target="_blank" rel="noopener">
@@ -91,12 +107,12 @@ title: Home
 </section>
 
 <!-- ── Contact ──────────────────────────────────────── -->
-<section id="contact" class="section section-alt">
+<section id="contact" class="section">
   <div class="container contact">
-    <h2 class="section-title"><span class="section-num">04.</span> Contact</h2>
+    <h2 class="section-title"><span class="section-num">05.</span> Contact</h2>
     <p class="contact-lead">I'm open to collaboration or just a chat!</p>
     <div class="contact-links">
-      {% if site.email %}<a href="mailto:{{ youngwan.son@uos.ac.kr }}" class="btn btn-primary">Send Email</a>{% endif %}
+      {% if site.email %}<a href="mailto:{{ site.email }}" class="btn btn-primary">Send Email</a>{% endif %}
       {% if site.github %}<a href="https://github.com/virusfunk" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>{% endif %}
     </div>
   </div>

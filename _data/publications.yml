@@ -1,0 +1,234 @@
+# Publications, parsed from bibliography.bib.
+# Edit freely. `link` points to DOI or arXiv. `note` shows a status badge.
+
+# ── First-author / lead papers ─────────────────────────
+first:
+  - title: "HAWC study of the very-high-energy γ-ray spectrum of HAWC J1844−034"
+    authors: "Y. Son et al. (HAWC Collaboration)"
+    venue: "Astrophysical Journal 239, 12–26"
+    year: 2023
+    link: "https://doi.org/10.3847/1538-4357/ace967"
+
+  - title: "Spectral study of very-high-energy gamma rays from SS 433 with HAWC"
+    authors: "Y. Son et al. (HAWC Collaboration)"
+    venue: "Astrophysical Journal 976, 30–39"
+    year: 2024
+    link: "https://doi.org/10.3847/1538-4357/ad7e1b"
+
+  - title: "Enhancing event reconstruction for γ-ray particle detector arrays using transformers"
+    authors: "M. Pirke, Y. Son, J. Glombitza, M. Schneider, I. J. Watson, C. van Eldik"
+    venue: "arXiv:2604.09402"
+    year: 2026
+    note: "Under journal review"
+    link: "https://arxiv.org/abs/2604.09402"
+
+  - title: "HAWC study of the ultra-high-energy gamma-ray emissions from the pulsar wind nebula G32.64+0.53"
+    authors: "Y. Son et al. (HAWC Collaboration)"
+    venue: "arXiv:2603.19721"
+    year: 2026
+    note: "Under journal review"
+    link: "https://arxiv.org/abs/2603.19721"
+
+# ── Conference proceedings ─────────────────────────────
+proceedings:
+  - title: "Event reconstruction performance for SWGO using attention-based neural network"
+    authors: "I. J. Watson, Y. Son"
+    venue: "PoS ICRC2025, 878"
+    year: 2025
+    link: "https://doi.org/10.22323/1.501.0878"
+
+  - title: "Search for axion-like particles using TeV blazar observations with the HAWC Observatory"
+    authors: "I. J. Watson, Y. Son"
+    venue: "PoS ICRC2025, 538"
+    year: 2025
+    link: "https://doi.org/10.22323/1.501.0538"
+
+  - title: "Study of the HAWC counterpart of LHAASO J1849−0003 and its surroundings at TeV energies"
+    authors: "Y. Son, C. D. Rho, R. Babu (HAWC Collaboration)"
+    venue: "Proc. ICRC 2023"
+    year: 2023
+
+  - title: "Studying high-mass microquasars with HAWC"
+    authors: "C. D. Rho, K. Fang, S. Y. Hwang, Y. Son (HAWC Collaboration)"
+    venue: "Proc. ICRC 2021"
+    year: 2021
+
+  - title: "Muon trigger using deep neural networks accelerated by FPGAs"
+    authors: "Y. Son, J. S. H. Lee, S. Kim, I. C. Park, I. J. Watson, S. Yang"
+    venue: "Proc. ICHEP 2020"
+    year: 2020
+
+# ── Collaboration (co-author) publications ─────────────
+collaboration:
+  - title: "Constraints on axion-like particles from ultra-high-energy observations of M87 with the HAWC observatory"
+    authors: "HAWC Collaboration"
+    venue: "Phys. Dark Univ. 52, 102260"
+    year: 2026
+    link: "https://doi.org/10.1016/j.dark.2026.102260"
+  - title: "Search for TeV emission from spider millisecond pulsars with HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Phys. Rev. D 113, 083016"
+    year: 2026
+    link: "https://doi.org/10.1103/vczm-yqxq"
+  - title: "Search for signatures of dark matter annihilation in the Galactic Center with HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Phys. Rev. Lett. (2026)"
+    year: 2026
+    link: "https://doi.org/10.1103/k7wc-d5kn"
+  - title: "Combined dark matter search towards dwarf spheroidal galaxies with Fermi-LAT, HAWC, H.E.S.S., MAGIC, and VERITAS"
+    authors: "Fermi-LAT, HAWC, H.E.S.S., MAGIC & VERITAS Collaborations"
+    venue: "JCAP 03, 035"
+    year: 2026
+    link: "https://doi.org/10.1088/1475-7516/2026/03/035"
+
+  - title: "HAWC, VERITAS, Fermi-LAT, and XMM-Newton follow-up observations of the unidentified UHE gamma-ray source LHAASO J2108+5157"
+    authors: "VERITAS, HAWC & XMM-Newton Collaborations"
+    venue: "Astrophys. J. 991, 192"
+    year: 2025
+    link: "https://doi.org/10.3847/1538-4357/adf439"
+  - title: "HAWC performance enhanced by machine learning in gamma-hadron separation"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 992, 156"
+    year: 2025
+    link: "https://doi.org/10.3847/1538-4357/ae0186"
+  - title: "Long-time monitoring of TeV radio galaxies with HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 994, 191"
+    year: 2025
+    link: "https://doi.org/10.3847/1538-4357/ae1009"
+  - title: "Extended TeV halos may commonly exist around middle-aged pulsars"
+    authors: "HAWC Collaboration"
+    venue: "Phys. Rev. Lett. 134, 171005"
+    year: 2025
+    link: "https://doi.org/10.1103/PhysRevLett.134.171005"
+  - title: "Orbital modulation of gamma rays up to 100 TeV from LS 5039"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. Lett. 987, L42"
+    year: 2025
+    link: "https://doi.org/10.3847/2041-8213/ade760"
+  - title: "Absence of TeV halos around millisecond pulsars"
+    authors: "HAWC Collaboration"
+    venue: "Phys. Rev. D 111, 043014"
+    year: 2025
+    link: "https://doi.org/10.1103/PhysRevD.111.043014"
+  - title: "Study of long-term spectral evolution and X-ray and γ-ray correlation of blazars seen by HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 980, 88"
+    year: 2025
+    link: "https://doi.org/10.3847/1538-4357/ad9d3d"
+  - title: "A measurement of the all-particle energy spectrum of cosmic rays from 10¹³ to 10¹⁵ eV using HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Astropart. Phys. 167, 103077"
+    year: 2025
+    link: "https://doi.org/10.1016/j.astropartphys.2024.103077"
+
+  - title: "Ultra-high-energy gamma-ray bubble around microquasar V4641 Sgr"
+    authors: "HAWC Collaboration"
+    venue: "Nature 634, 557–560"
+    year: 2024
+    link: "https://doi.org/10.1038/s41586-024-07995-9"
+  - title: "Precise measurements of TeV halos around Geminga and Monogem pulsars with HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 974, 246"
+    year: 2024
+    link: "https://doi.org/10.3847/1538-4357/ad738e"
+  - title: "Multiwavelength investigation of γ-ray source MGRO J1908+06 using Fermi-LAT, VERITAS and HAWC"
+    authors: "VERITAS, HAWC & Fermi-LAT Collaborations"
+    venue: "Astrophys. J. 974, 61"
+    year: 2024
+    link: "https://doi.org/10.3847/1538-4357/ad698d"
+  - title: "Testing the molecular cloud paradigm for ultra-high-energy gamma-ray emission from the direction of SNR G106.3+2.7"
+    authors: "HAWC Collaboration"
+    venue: "Astron. Astrophys. 691, A89"
+    year: 2024
+    link: "https://doi.org/10.1051/0004-6361/202451514"
+  - title: "TeV analysis of a source-rich region with the HAWC Observatory: is HESS J1809−193 a potential hadronic PeVatron?"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 972, 21"
+    year: 2024
+    link: "https://doi.org/10.3847/1538-4357/ad59a6"
+  - title: "Observation of the Galactic Center PeVatron beyond 100 TeV with HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. Lett. 973, L34"
+    year: 2024
+    link: "https://doi.org/10.3847/2041-8213/ad772e"
+  - title: "Performance of the HAWC Observatory and TeV gamma-ray measurements of the Crab Nebula with improved air-shower reconstruction algorithms"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 972, 144"
+    year: 2024
+    link: "https://doi.org/10.3847/1538-4357/ad5f2d"
+  - title: "Exploring the coronal magnetic field with galactic cosmic rays: the Sun shadow observed by HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 966, 67"
+    year: 2024
+    link: "https://doi.org/10.3847/1538-4357/ad3208"
+  - title: "Search for decaying dark matter in the Virgo cluster of galaxies with HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Phys. Rev. D 109, 043034"
+    year: 2024
+    link: "https://doi.org/10.1103/PhysRevD.109.043034"
+  - title: "High-altitude characterization of the Hunga pressure wave with cosmic rays by the HAWC observatory"
+    authors: "HAWC Collaboration"
+    venue: "Adv. Space Res. 73, 1083–1091"
+    year: 2024
+    link: "https://doi.org/10.1016/j.asr.2023.09.049"
+
+  - title: "The High-Altitude Water Cherenkov (HAWC) observatory in México: the primary detector"
+    authors: "HAWC Collaboration"
+    venue: "Nucl. Instrum. Meth. A 1052, 168253"
+    year: 2023
+    link: "https://doi.org/10.1016/j.nima.2023.168253"
+  - title: "Searching for TeV dark matter in irregular dwarf galaxies with the HAWC Observatory"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 945, 25"
+    year: 2023
+    link: "https://doi.org/10.3847/1538-4357/acb5f1"
+  - title: "Detailed analysis of the TeV γ-ray sources 3HWC J1928+178, 3HWC J1930+188, and the new source HAWC J1932+192"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 942, 96"
+    year: 2023
+    link: "https://doi.org/10.3847/1538-4357/ac8de3"
+  - title: "HAWC detection of a TeV halo candidate surrounding a radio-quiet pulsar"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. Lett. 944, L29"
+    year: 2023
+    link: "https://doi.org/10.3847/2041-8213/acb5ee"
+  - title: "Discovery of gamma rays from the quiescent Sun with HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Phys. Rev. Lett. 131, 051201"
+    year: 2023
+    link: "https://doi.org/10.1103/PhysRevLett.131.051201"
+  - title: "Search for gamma-ray and neutrino coincidences using HAWC and ANTARES data"
+    authors: "AMON, HAWC & ANTARES Collaborations"
+    venue: "Astrophys. J. 944, 166"
+    year: 2023
+    link: "https://doi.org/10.3847/1538-4357/acafdd"
+
+  - title: "Limits on the diffuse gamma-ray background above 10 TeV with HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Preprint LA-UR-22-24242"
+    year: 2022
+  - title: "Probing the extragalactic mid-infrared background with HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 933, 223"
+    year: 2022
+    link: "https://doi.org/10.3847/1538-4357/ac7714"
+  - title: "Validation of standardized data formats and tools for ground-level particle-based gamma-ray observatories"
+    authors: "HAWC Collaboration"
+    venue: "Astron. Astrophys. 667, A36"
+    year: 2022
+    link: "https://doi.org/10.1051/0004-6361/202243527"
+  - title: "γ-ray emission from classical nova V392 Per: measurements from Fermi and HAWC"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 940, 141"
+    year: 2022
+    link: "https://doi.org/10.3847/1538-4357/ac966a"
+  - title: "Study of the very-high-energy emission of M87 through its broadband spectral energy distribution"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 934, 158"
+    year: 2022
+    link: "https://doi.org/10.3847/1538-4357/ac7b78"
+  - title: "HAWC study of the ultra-high-energy spectrum of MGRO J1908+06"
+    authors: "HAWC Collaboration"
+    venue: "Astrophys. J. 928, 116"
+    year: 2022

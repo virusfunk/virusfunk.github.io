@@ -1,0 +1,9 @@
+{% assign p = include.p %}
+<li class="pub-item">
+  <p class="pub-title">
+    {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+    {% if p.note %}<span class="pub-badge">{{ p.note }}</span>{% endif %}
+  </p>
+  <p class="pub-meta">{{ p.authors }}</p>
+  <p class="pub-venue">{{ p.venue }}{% if p.year %} · {{ p.year }}{% endif %}</p>
+</li>
