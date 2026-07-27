@@ -29,6 +29,13 @@ first:
     note: "Under journal review"
     link: "https://arxiv.org/abs/2603.19721"
 
+  - title: "An 18-year Fermi-LAT stacking limit on GeV  -ray emission from particle-accelerating colliding-wind binaries"
+    authors: "Y. Son"
+    venue: "arXiv:2607.05102"
+    year: 2026
+    note: "Accepted"
+    link: "https://arxiv.org/abs/2607.05102"
+
 # ── Conference proceedings ─────────────────────────────
 proceedings:
   - title: "Event reconstruction performance for SWGO using attention-based neural network"
