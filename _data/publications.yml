@@ -4,13 +4,13 @@
 # ── First-author / lead papers ─────────────────────────
 first:
   - title: "HAWC study of the very-high-energy γ-ray spectrum of HAWC J1844−034"
-    authors: "Y. Son et al. (HAWC Collaboration)"
+    authors: "HAWC Collaboration"
     venue: "Astrophysical Journal 239, 12–26"
     year: 2023
     link: "https://doi.org/10.3847/1538-4357/ace967"
 
   - title: "Spectral study of very-high-energy gamma rays from SS 433 with HAWC"
-    authors: "Y. Son et al. (HAWC Collaboration)"
+    authors: "HAWC Collaboration"
     venue: "Astrophysical Journal 976, 30–39"
     year: 2024
     link: "https://doi.org/10.3847/1538-4357/ad7e1b"
@@ -23,7 +23,7 @@ first:
     link: "https://arxiv.org/abs/2604.09402"
 
   - title: "HAWC study of the ultra-high-energy gamma-ray emissions from the pulsar wind nebula G32.64+0.53"
-    authors: "Y. Son et al. (HAWC Collaboration)"
+    authors: "HAWC Collaboration"
     venue: "arXiv:2603.19721"
     year: 2026
     note: "Accepted"
@@ -31,10 +31,9 @@ first:
 
   - title: "An 18-year Fermi-LAT stacking limit on GeV  -ray emission from particle-accelerating colliding-wind binaries"
     authors: "Y. Son"
-    venue: "arXiv:2607.05102"
+    venue: "Journal of Cosmology and Astroparticle Physics"
     year: 2026
-    note: "Accepted"
-    link: "https://arxiv.org/abs/2607.05102"
+    link: "https://doi.org/10.1088/1475-7516/2026/08/067"
 
 # ── Conference proceedings ─────────────────────────────
 proceedings:
