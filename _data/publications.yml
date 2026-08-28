@@ -15,6 +15,12 @@ first:
     year: 2024
     link: "https://doi.org/10.3847/1538-4357/ad7e1b"
 
+  - title: "An 18-year Fermi-LAT stacking limit on GeV  -ray emission from particle-accelerating colliding-wind binaries"
+    authors: "Y. Son"
+    venue: "Journal of Cosmology and Astroparticle Physics, 08, 067"
+    year: 2026
+    link: "https://doi.org/10.1088/1475-7516/2026/08/067"
+
   - title: "Enhancing event reconstruction for γ-ray particle detector arrays using transformers"
     authors: "M. Pirke, Y. Son, J. Glombitza, M. Schneider, I. J. Watson, C. van Eldik"
     venue: "arXiv:2604.09402"
@@ -28,12 +34,6 @@ first:
     year: 2026
     note: "Accepted"
     link: "https://arxiv.org/abs/2603.19721"
-
-  - title: "An 18-year Fermi-LAT stacking limit on GeV  -ray emission from particle-accelerating colliding-wind binaries"
-    authors: "Y. Son"
-    venue: "Journal of Cosmology and Astroparticle Physics, 08, 067"
-    year: 2026
-    link: "https://doi.org/10.1088/1475-7516/2026/08/067"
 
 # ── Conference proceedings ─────────────────────────────
 proceedings:
