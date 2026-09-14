@@ -27,7 +27,7 @@ first:
     year: 2026
     link: "https://doi.org/10.3847/1538-4357/ae975c"
 
-- title: "Enhancing event reconstruction for γ-ray particle detector arrays using transformers"
+  - title: "Enhancing event reconstruction for γ-ray particle detector arrays using transformers"
     authors: "M. Pirke, Y. Son, J. Glombitza, M. Schneider, I. J. Watson, C. van Eldik"
     venue: "arXiv:2604.09402"
     year: 2026
