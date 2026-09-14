@@ -21,19 +21,18 @@ first:
     year: 2026
     link: "https://doi.org/10.1088/1475-7516/2026/08/067"
 
-  - title: "Enhancing event reconstruction for γ-ray particle detector arrays using transformers"
+  - title: "HAWC study of the ultra-high-energy gamma-ray emissions from the pulsar wind nebula G32.64+0.53"
+    authors: "HAWC Collaboration"
+    venue: "Astrophysical Journal, 1009, 47-58"
+    year: 2026
+    link: "https://doi.org/10.3847/1538-4357/ae975c"
+
+- title: "Enhancing event reconstruction for γ-ray particle detector arrays using transformers"
     authors: "M. Pirke, Y. Son, J. Glombitza, M. Schneider, I. J. Watson, C. van Eldik"
     venue: "arXiv:2604.09402"
     year: 2026
     note: "Accepted"
     link: "https://arxiv.org/abs/2604.09402"
-
-  - title: "HAWC study of the ultra-high-energy gamma-ray emissions from the pulsar wind nebula G32.64+0.53"
-    authors: "HAWC Collaboration"
-    venue: "arXiv:2603.19721"
-    year: 2026
-    note: "Accepted"
-    link: "https://arxiv.org/abs/2603.19721"
 
 # ── Conference proceedings ─────────────────────────────
 proceedings:
