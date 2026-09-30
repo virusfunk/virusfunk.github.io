@@ -29,10 +29,9 @@ first:
 
   - title: "Enhancing event reconstruction for γ-ray particle detector arrays using transformers"
     authors: "M. Pirke, Y. Son, J. Glombitza, M. Schneider, I. J. Watson, C. van Eldik"
-    venue: "arXiv:2604.09402"
+    venue: "Journal of Cosmology and Astroparticle Physics, 09, 144"
     year: 2026
-    note: "Accepted"
-    link: "https://arxiv.org/abs/2604.09402"
+    link: "https://doi.org/10.1088/1475-7516/2026/09/144"
 
 # ── Conference proceedings ─────────────────────────────
 proceedings:
