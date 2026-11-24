@@ -33,6 +33,14 @@ first:
     year: 2026
     link: "https://doi.org/10.1088/1475-7516/2026/09/144"
 
+  
+  - title: "Search for Axion-like Particles using Blazar Observations with the HAWC Observatory"
+    authors: "HAWC Collaboration"
+    venue: "arXiv"
+    year: 2026
+    link: "https://arxiv.org/abs/2611.30818"
+
+
 # ── Conference proceedings ─────────────────────────────
 proceedings:
   - title: "Event reconstruction performance for SWGO using attention-based neural network"
